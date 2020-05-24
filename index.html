@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Počasie</title>
+  </head>
+  <body>
+
+
+<!-- aby bola možná POST, muísme použiť form a v nej post metódu;
+action musí byť len "/" aby funovalo (predvolené je index.html ale to sa nespojí
+ak by sme nedali do formulára tento input a button, nič by sa neposlalo na server-->
+    <form action="/" method="post">
+      <label for="cityInput">City Name:</label>
+      <input id="cityInput" type="text" name="cityName">
+      <button type="submit">Pošli to</button>
+    </form>
+
+  </body>
+</html>
